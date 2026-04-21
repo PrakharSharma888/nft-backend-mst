@@ -86,7 +86,7 @@ async function pinJsonToPinata({ name, description, image, attributes }) {
 }
 
 const MINT_ABI = [
-  'function mintWorkshopCertificate(uint256,string,string,string) external returns (uint256)',
+  'function mintWorkshopCertificate(uint256,string,string,string,string) external returns (uint256)',
 ]
 
 function extractRevertReason(err) {
